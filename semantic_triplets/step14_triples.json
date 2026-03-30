@@ -1,0 +1,22 @@
+[
+    {
+        "subject": "门洞",
+        "relation": "通向",
+        "object": "另一个房间"
+    },
+    {
+        "subject": "门洞",
+        "relation": "可见",
+        "object": "桌子或梳妆台"
+    },
+    {
+        "subject": "墙",
+        "relation": "挂着",
+        "object": "相框或装饰物"
+    },
+    {
+        "subject": "地面",
+        "relation": "有",
+        "object": "暖气片或散热器"
+    }
+]

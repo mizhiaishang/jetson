@@ -1,0 +1,32 @@
+[
+    {
+        "subject": "门",
+        "relation": "内",
+        "object": "卧室"
+    },
+    {
+        "subject": "床",
+        "relation": "靠",
+        "object": "墙"
+    },
+    {
+        "subject": "床",
+        "relation": "旁边",
+        "object": "衣柜"
+    },
+    {
+        "subject": "床",
+        "relation": "旁边",
+        "object": "梳妆台"
+    },
+    {
+        "subject": "镜子",
+        "relation": "挂在",
+        "object": "墙"
+    },
+    {
+        "subject": "入口",
+        "relation": "通往",
+        "object": "卧室"
+    }
+]

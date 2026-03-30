@@ -1,0 +1,17 @@
+[
+    {
+        "subject": "壁纸",
+        "relation": "下方",
+        "object": "家具"
+    },
+    {
+        "subject": "家具",
+        "relation": "放置",
+        "object": "相框"
+    },
+    {
+        "subject": "相框",
+        "relation": "旁边",
+        "object": "小物件"
+    }
+]

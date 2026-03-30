@@ -1,0 +1,17 @@
+[
+    {
+        "subject": "门洞",
+        "relation": "通向",
+        "object": "房间"
+    },
+    {
+        "subject": "墙壁",
+        "relation": "右侧",
+        "object": "门洞"
+    },
+    {
+        "subject": "地毯",
+        "relation": "前景",
+        "object": "地面"
+    }
+]

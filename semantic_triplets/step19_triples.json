@@ -1,0 +1,12 @@
+[
+    {
+        "subject": "抽象画",
+        "relation": "下方",
+        "object": "暖气片"
+    },
+    {
+        "subject": "房间",
+        "relation": "内",
+        "object": "婴儿床"
+    }
+]

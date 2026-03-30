@@ -1,0 +1,17 @@
+[
+    {
+        "subject": "梳妆台",
+        "relation": "位于",
+        "object": "前景右侧"
+    },
+    {
+        "subject": "衣柜",
+        "relation": "位于",
+        "object": "背景"
+    },
+    {
+        "subject": "门框",
+        "relation": "位于",
+        "object": "图像左侧"
+    }
+]

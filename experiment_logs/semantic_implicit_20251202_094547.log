@@ -1,0 +1,296 @@
+2025-12-02 09:45:47 - INFO - Creating new EmbodiedRAG instance...
+2025-12-02 09:45:47 - INFO - Found 27 visual recognition folders.
+2025-12-02 09:45:47 - INFO - --------------------------------
+2025-12-02 09:45:47 - INFO - Processing visual recognition results for step1 from folder: visual_recognition_minicar/step1
+2025-12-02 09:45:47 - WARNING - shelf
+2025-12-02 09:45:47 - INFO - before:{}{}
+2025-12-02 09:45:47 - WARNING - Not enough landmark nodes to find the 1th nearest for shelf.
+2025-12-02 09:45:48 - INFO - Successfully landmark node: shelf, position: [ 1.44804687  0.46479904 -3.57      ], confidence: 0.9263581037521362 
+2025-12-02 09:45:48 - INFO - after:{0: 'shelf'}{0: 'shelf'}
+2025-12-02 09:45:48 - INFO - Added landmark node: shelf (0.9263581037521362)
+2025-12-02 09:45:48 - WARNING - Not enough landmark nodes to find the 1th nearest for shelf.
+2025-12-02 09:45:48 - WARNING - shelf
+2025-12-02 09:45:48 - INFO - before:{0: 'shelf'}{0: 'shelf'}
+2025-12-02 09:45:48 - INFO - Successfully landmark node: shelf_1, position: [ 1.277325    0.26272965 -1.822     ], confidence: 0.9129953980445862 
+2025-12-02 09:45:48 - INFO - after:{0: 'shelf', 1: 'shelf_1'}{0: 'shelf', 1: 'shelf_1'}
+2025-12-02 09:45:48 - INFO - Added landmark node: shelf (0.9129953980445862)
+2025-12-02 09:45:48 - INFO - Added edge from shelf_1 to nearest landmark shelf with relation above and distance 1.7679032766672618
+2025-12-02 09:45:48 - WARNING - shelf
+2025-12-02 09:45:48 - INFO - before:{0: 'shelf', 1: 'shelf_1'}{0: 'shelf', 1: 'shelf_1'}
+2025-12-02 09:45:48 - INFO - Successfully landmark node: shelf_2, position: [ 1.90945312  0.77087968 -8.347     ], confidence: 0.8575454950332642 
+2025-12-02 09:45:48 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2'}
+2025-12-02 09:45:48 - INFO - Added landmark node: shelf (0.8575454950332642)
+2025-12-02 09:45:48 - INFO - Added edge from shelf_2 to nearest landmark shelf with relation below and distance 4.808982229808684
+2025-12-02 09:45:48 - WARNING - chair
+2025-12-02 09:45:49 - INFO - Successfully object node: chair, position: [ 0.48770625  0.31117255 -8.636     ], confidence: 0.7461242079734802 
+2025-12-02 09:45:49 - INFO - Added object node: chair (0.7461242079734802)
+2025-12-02 09:45:49 - INFO - Added edge from chair to nearest landmark shelf_2 with relation right_of and distance 1.521911897839265
+2025-12-02 09:45:49 - WARNING - chair
+2025-12-02 09:45:49 - INFO - Successfully object node: chair_4, position: [ 1.51475     0.03727117 -3.52      ], confidence: 0.7071099281311035 
+2025-12-02 09:45:49 - INFO - Added object node: chair (0.7071099281311035)
+2025-12-02 09:45:49 - INFO - Added edge from chair_4 to nearest landmark shelf with relation behind and distance 0.435579373040206
+2025-12-02 09:45:49 - INFO - Ignoring low confidence detection: table (0.6704162359237671)
+2025-12-02 09:45:49 - INFO - Ignoring low confidence detection: guard (0.3639003038406372)
+2025-12-02 09:45:49 - INFO - Ignoring low confidence detection: guard (0.3303147256374359)
+2025-12-02 09:45:49 - INFO - 知识图谱已保存至 /home/gwk/langChain_Test/graphs_minicar/visual_0_current_globalgraph.html
+2025-12-02 09:45:49 - INFO - 当前步骤全局知识图已保存为 graphs_minicar/visual_0_current_globalgraph.html
+2025-12-02 09:45:49 - INFO - --------------------------------
+2025-12-02 09:45:49 - INFO - Processing visual recognition results for step2 from folder: visual_recognition_minicar/step2
+2025-12-02 09:45:49 - INFO - Label shelf Position [ 1.43735     0.46103023 -3.182     ] is occupied at index 0 by node shelf
+2025-12-02 09:45:49 - INFO - Same class detected for occupied node shelf. Updating confidence and position.
+2025-12-02 09:45:49 - INFO - Updated occupied node shelf with new confidence 0.9346919655799866 and position [1.4426984374999998, 0.4629146345839987, -3.3760000000000003]
+2025-12-02 09:45:49 - WARNING - shelf
+2025-12-02 09:45:49 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4'}
+2025-12-02 09:45:49 - INFO - Successfully landmark node: shelf_5, position: [ 1.27147187  0.26256768 -1.421     ], confidence: 0.9125362634658813 
+2025-12-02 09:45:49 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5'}
+2025-12-02 09:45:49 - INFO - Added landmark node: shelf (0.9125362634658813)
+2025-12-02 09:45:49 - INFO - Added edge from shelf_5 to nearest landmark shelf_1 with relation above and distance 0.40104275344369233
+2025-12-02 09:45:49 - WARNING - shelf
+2025-12-02 09:45:49 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5'}
+2025-12-02 09:45:49 - INFO - Successfully landmark node: shelf_6, position: [ 1.87126406  0.77087968 -7.947     ], confidence: 0.8774896264076233 
+2025-12-02 09:45:49 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6'}
+2025-12-02 09:45:49 - INFO - Added landmark node: shelf (0.8774896264076233)
+2025-12-02 09:45:49 - INFO - Added edge from shelf_6 to nearest landmark shelf_2 with relation above and distance 0.40181887619050516
+2025-12-02 09:45:49 - INFO - Label chair Position [ 0.46446094  0.29965441 -8.293     ] is occupied at index 3 by node chair
+2025-12-02 09:45:49 - INFO - Same class detected for occupied node chair. Updating confidence and position.
+2025-12-02 09:45:49 - INFO - Updated occupied node chair with new confidence 0.7461242079734802 and position [0.4760835937499999, 0.30541348114906874, -8.464500000000001]
+2025-12-02 09:45:49 - WARNING - table
+2025-12-02 09:45:49 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6'}
+2025-12-02 09:45:49 - INFO - Successfully landmark node: table, position: [-0.39055156 -0.06583076 -0.533     ], confidence: 0.7075891494750977 
+2025-12-02 09:45:49 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table'}
+2025-12-02 09:45:49 - INFO - Added landmark node: table (0.7075891494750977)
+2025-12-02 09:45:49 - INFO - Added edge from table to nearest landmark shelf_5 with relation right_of and distance 1.9127758468088258
+2025-12-02 09:45:49 - INFO - Ignoring low confidence detection: chair (0.6509464979171753)
+2025-12-02 09:45:49 - INFO - Ignoring low confidence detection: guard (0.3448466658592224)
+2025-12-02 09:45:49 - INFO - Ignoring low confidence detection: guard (0.343387633562088)
+2025-12-02 09:45:49 - INFO - Ignoring low confidence detection: guard (0.31630250811576843)
+2025-12-02 09:45:49 - INFO - 知识图谱已保存至 /home/gwk/langChain_Test/graphs_minicar/visual_1_current_globalgraph.html
+2025-12-02 09:45:49 - INFO - 当前步骤全局知识图已保存为 graphs_minicar/visual_1_current_globalgraph.html
+2025-12-02 09:45:49 - INFO - --------------------------------
+2025-12-02 09:45:49 - INFO - Processing visual recognition results for step3 from folder: visual_recognition_minicar/step3
+2025-12-02 09:45:49 - WARNING - shelf
+2025-12-02 09:45:49 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table'}
+2025-12-02 09:45:49 - INFO - Successfully landmark node: shelf_8, position: [ 2.2038875   0.72040484 -4.692     ], confidence: 0.9422833919525146 
+2025-12-02 09:45:49 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8'}
+2025-12-02 09:45:49 - INFO - Added landmark node: shelf (0.9422833919525146)
+2025-12-02 09:45:49 - INFO - Added edge from shelf_8 to nearest landmark shelf with relation below and distance 1.3767764424251494
+2025-12-02 09:45:49 - WARNING - shelf
+2025-12-02 09:45:49 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8'}
+2025-12-02 09:45:49 - INFO - Successfully landmark node: shelf_9, position: [ 1.69379531  0.75987956 -7.379     ], confidence: 0.918371856212616 
+2025-12-02 09:45:49 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9'}
+2025-12-02 09:45:49 - INFO - Added landmark node: shelf (0.918371856212616)
+2025-12-02 09:45:49 - INFO - Added edge from shelf_9 to nearest landmark shelf_6 with relation above and distance 0.5951807735770911
+2025-12-02 09:45:49 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:49 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:49 - WARNING - chair
+2025-12-02 09:45:50 - INFO - Successfully object node: chair_10, position: [ 0.20899687  0.20259702 -7.631     ], confidence: 0.7148959636688232 
+2025-12-02 09:45:50 - INFO - Added object node: chair (0.7148959636688232)
+2025-12-02 09:45:50 - INFO - Added edge from chair_10 to nearest landmark shelf_9 with relation right_of and distance 1.6058313189826598
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: table (0.6864927411079407)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: chair (0.6822896599769592)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: table (0.39731210470199585)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: chair (0.3734051585197449)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: guard (0.3598315715789795)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: shelf (0.30656516551971436)
+2025-12-02 09:45:50 - INFO - 知识图谱已保存至 /home/gwk/langChain_Test/graphs_minicar/visual_2_current_globalgraph.html
+2025-12-02 09:45:50 - INFO - 当前步骤全局知识图已保存为 graphs_minicar/visual_2_current_globalgraph.html
+2025-12-02 09:45:50 - INFO - --------------------------------
+2025-12-02 09:45:50 - INFO - Processing visual recognition results for step4 from folder: visual_recognition_minicar/step4
+2025-12-02 09:45:50 - WARNING - shelf
+2025-12-02 09:45:50 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10'}
+2025-12-02 09:45:50 - INFO - Successfully landmark node: shelf_11, position: [ 1.46767187  0.71507236 -5.745     ], confidence: 0.9447851777076721 
+2025-12-02 09:45:50 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11'}
+2025-12-02 09:45:50 - INFO - Added landmark node: shelf (0.9447851777076721)
+2025-12-02 09:45:50 - INFO - Added edge from shelf_11 to nearest landmark shelf_8 with relation below and distance 1.2848544155626693
+2025-12-02 09:45:50 - WARNING - shelf
+2025-12-02 09:45:50 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11'}
+2025-12-02 09:45:50 - INFO - Successfully landmark node: shelf_12, position: [ 2.30749062  0.72525458 -3.333     ], confidence: 0.9356975555419922 
+2025-12-02 09:45:50 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12'}
+2025-12-02 09:45:50 - INFO - Added landmark node: shelf (0.9356975555419922)
+2025-12-02 09:45:50 - INFO - Added edge from shelf_12 to nearest landmark shelf with relation left_of and distance 0.9287893457077482
+2025-12-02 09:45:50 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:50 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:50 - WARNING - box
+2025-12-02 09:45:50 - INFO - Successfully object node: box, position: [-0.1269125   0.17034399 -6.048     ], confidence: 0.8923352360725403 
+2025-12-02 09:45:50 - INFO - Added object node: box (0.8923352360725403)
+2025-12-02 09:45:50 - INFO - Added edge from box to nearest landmark shelf_11 with relation right_of and distance 1.7120856671833011
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: guard (0.6163854002952576)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: table (0.568090558052063)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: chair (0.563919186592102)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: chair (0.5594999194145203)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: chair (0.5072787404060364)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: shelf (0.4838069677352905)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: box (0.3912113904953003)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: guard (0.36329248547554016)
+2025-12-02 09:45:50 - INFO - 知识图谱已保存至 /home/gwk/langChain_Test/graphs_minicar/visual_3_current_globalgraph.html
+2025-12-02 09:45:50 - INFO - 当前步骤全局知识图已保存为 graphs_minicar/visual_3_current_globalgraph.html
+2025-12-02 09:45:50 - INFO - --------------------------------
+2025-12-02 09:45:50 - INFO - Processing visual recognition results for step5 from folder: visual_recognition_minicar/step5
+2025-12-02 09:45:50 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:50 - WARNING - shelf
+2025-12-02 09:45:50 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box'}
+2025-12-02 09:45:50 - INFO - Successfully landmark node: shelf_14, position: [ 1.49803125  0.69595726 -5.246     ], confidence: 0.9430299401283264 
+2025-12-02 09:45:50 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14'}
+2025-12-02 09:45:50 - INFO - Added landmark node: shelf (0.9430299401283264)
+2025-12-02 09:45:50 - INFO - Added edge from shelf_14 to nearest landmark shelf_11 with relation above and distance 0.5002879900089723
+2025-12-02 09:45:50 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:50 - WARNING - chair
+2025-12-02 09:45:50 - INFO - Successfully object node: chair_15, position: [ 0.84372187  0.15865585 -4.322     ], confidence: 0.790702223777771 
+2025-12-02 09:45:50 - INFO - Added object node: chair (0.790702223777771)
+2025-12-02 09:45:50 - INFO - Added edge from chair_15 to nearest landmark shelf with relation below and distance 1.0121444348630173
+2025-12-02 09:45:50 - INFO - Label shelf Position [ 0.91355469  0.19165623 -1.485     ] is occupied at index 5 by node shelf_5
+2025-12-02 09:45:50 - INFO - Same class detected for occupied node shelf_5. Updating confidence and position.
+2025-12-02 09:45:50 - INFO - Updated occupied node shelf_5 with new confidence 0.9125362634658813 and position [1.0925132812499998, 0.22711195464097353, -1.4529999999999998]
+2025-12-02 09:45:50 - INFO - Label chair Position [ 0.736575    0.02700075 -8.618     ] is occupied at index 3 by node chair
+2025-12-02 09:45:50 - INFO - Same class detected for occupied node chair. Updating confidence and position.
+2025-12-02 09:45:50 - INFO - Updated occupied node chair with new confidence 0.7461242079734802 and position [0.6063292968749998, 0.1662071143690851, -8.541250001490116]
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: table (0.5004035234451294)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: box (0.49083396792411804)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: table (0.4514123797416687)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: chair (0.4495789408683777)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: guard (0.3310931921005249)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: table (0.32793354988098145)
+2025-12-02 09:45:50 - INFO - Ignoring low confidence detection: table (0.31158098578453064)
+2025-12-02 09:45:50 - INFO - 知识图谱已保存至 /home/gwk/langChain_Test/graphs_minicar/visual_4_current_globalgraph.html
+2025-12-02 09:45:50 - INFO - 当前步骤全局知识图已保存为 graphs_minicar/visual_4_current_globalgraph.html
+2025-12-02 09:45:50 - INFO - --------------------------------
+2025-12-02 09:45:50 - INFO - Processing visual recognition results for step6 from folder: visual_recognition_minicar/step6
+2025-12-02 09:45:50 - INFO - Label shelf Position [ 1.56654375  0.68995763 -3.541     ] is occupied at index 0 by node shelf
+2025-12-02 09:45:50 - INFO - Same class detected for occupied node shelf. Updating confidence and position.
+2025-12-02 09:45:50 - INFO - Updated occupied node shelf with new confidence 0.9475470781326294 and position [1.5046210937499997, 0.5764361312634089, -3.4584999985098843]
+2025-12-02 09:45:50 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:50 - WARNING - chair
+2025-12-02 09:45:50 - INFO - Successfully object node: chair_16, position: [ 0.9095      0.10905505 -2.52      ], confidence: 0.8551515936851501 
+2025-12-02 09:45:50 - INFO - Added object node: chair (0.8551515936851501)
+2025-12-02 09:45:50 - INFO - Added edge from chair_16 to nearest landmark shelf_1 with relation below and distance 0.8038128552499624
+2025-12-02 09:45:50 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:50 - WARNING - box
+2025-12-02 09:45:51 - INFO - Successfully object node: box_17, position: [-0.1491      0.15303631 -3.776     ], confidence: 0.8128474950790405 
+2025-12-02 09:45:51 - INFO - Added object node: box (0.8128474950790405)
+2025-12-02 09:45:51 - INFO - Added edge from box_17 to nearest landmark shelf with relation right_of and distance 1.6402774575990815
+2025-12-02 09:45:51 - INFO - Label chair Position [-0.2485      0.07014164 -3.776     ] is occupied at index 17 by node box_17
+2025-12-02 09:45:51 - INFO - Label chair Position [-0.2485      0.07014164 -3.776     ] is occupied at index 17 by node box_17
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: chair (0.6780055165290833)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: table (0.4261604845523834)
+2025-12-02 09:45:51 - INFO - 知识图谱已保存至 /home/gwk/langChain_Test/graphs_minicar/visual_5_current_globalgraph.html
+2025-12-02 09:45:51 - INFO - 当前步骤全局知识图已保存为 graphs_minicar/visual_5_current_globalgraph.html
+2025-12-02 09:45:51 - INFO - --------------------------------
+2025-12-02 09:45:51 - INFO - Processing visual recognition results for step7 from folder: visual_recognition_minicar/step7
+2025-12-02 09:45:51 - WARNING - shelf
+2025-12-02 09:45:51 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17'}
+2025-12-02 09:45:51 - INFO - Successfully landmark node: shelf_18, position: [ 0.89479687  0.29480146 -1.614     ], confidence: 0.9408286809921265 
+2025-12-02 09:45:51 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18'}
+2025-12-02 09:45:51 - INFO - Added landmark node: shelf (0.9408286809921265)
+2025-12-02 09:45:51 - INFO - Added edge from shelf_18 to nearest landmark shelf_5 with relation right_of and distance 0.42446681248787865
+2025-12-02 09:45:51 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:51 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:51 - WARNING - chair
+2025-12-02 09:45:51 - INFO - Successfully object node: chair_19, position: [-0.3992625   0.03152332 -3.008     ], confidence: 0.7980939745903015 
+2025-12-02 09:45:51 - INFO - Added object node: chair (0.7980939745903015)
+2025-12-02 09:45:51 - INFO - Added edge from chair_19 to nearest landmark shelf_18 with relation right_of and distance 1.9201929704704992
+2025-12-02 09:45:51 - WARNING - table
+2025-12-02 09:45:51 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19'}
+2025-12-02 09:45:51 - INFO - Successfully landmark node: table_20, position: [ 2.32284375  0.23400167 -2.953     ], confidence: 0.7557867169380188 
+2025-12-02 09:45:51 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20'}
+2025-12-02 09:45:51 - INFO - Added landmark node: table (0.7557867169380188)
+2025-12-02 09:45:51 - INFO - Added edge from table_20 to nearest landmark shelf_12 with relation behind and distance 0.6212609240828787
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: table (0.6507091522216797)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: chair (0.6059245467185974)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: chair (0.5624330639839172)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: box (0.5376169085502625)
+2025-12-02 09:45:51 - INFO - 知识图谱已保存至 /home/gwk/langChain_Test/graphs_minicar/visual_6_current_globalgraph.html
+2025-12-02 09:45:51 - INFO - 当前步骤全局知识图已保存为 graphs_minicar/visual_6_current_globalgraph.html
+2025-12-02 09:45:51 - INFO - --------------------------------
+2025-12-02 09:45:51 - INFO - Processing visual recognition results for step8 from folder: visual_recognition_minicar/step8
+2025-12-02 09:45:51 - WARNING - table
+2025-12-02 09:45:51 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20'}
+2025-12-02 09:45:51 - INFO - Successfully landmark node: table_21, position: [-1.23075   -0.0526351 -1.441    ], confidence: 0.8795858025550842 
+2025-12-02 09:45:51 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'table_21'}
+2025-12-02 09:45:51 - INFO - Added landmark node: table (0.8795858025550842)
+2025-12-02 09:45:51 - INFO - Added edge from table_21 to nearest landmark table with relation right_of and distance 1.2371626974051118
+2025-12-02 09:45:51 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: table (0.6034988164901733)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: guard (0.5953662991523743)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: chair (0.4513506293296814)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: box (0.42540013790130615)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: chair (0.4126051664352417)
+2025-12-02 09:45:51 - INFO - 知识图谱已保存至 /home/gwk/langChain_Test/graphs_minicar/visual_7_current_globalgraph.html
+2025-12-02 09:45:51 - INFO - 当前步骤全局知识图已保存为 graphs_minicar/visual_7_current_globalgraph.html
+2025-12-02 09:45:51 - INFO - --------------------------------
+2025-12-02 09:45:51 - INFO - Processing visual recognition results for step9 from folder: visual_recognition_minicar/step9
+2025-12-02 09:45:51 - INFO - Label shelf Position [ 0.94620312  0.28767279 -1.635     ] is occupied at index 1 by node shelf_1
+2025-12-02 09:45:51 - INFO - Same class detected for occupied node shelf_1. Updating confidence and position.
+2025-12-02 09:45:51 - INFO - Updated occupied node shelf_1 with new confidence 0.9129953980445862 and position [1.1117640624999998, 0.2752012226876, -1.7285000029802324]
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: table (0.6146330237388611)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: table (0.47248348593711853)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: shelf (0.4567295014858246)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: shelf (0.41030359268188477)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: chair (0.37887662649154663)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: shelf (0.35136908292770386)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: shelf (0.3423028588294983)
+2025-12-02 09:45:51 - INFO - Ignoring low confidence detection: shelf (0.31810373067855835)
+2025-12-02 09:45:51 - INFO - 知识图谱已保存至 /home/gwk/langChain_Test/graphs_minicar/visual_8_current_globalgraph.html
+2025-12-02 09:45:51 - INFO - 当前步骤全局知识图已保存为 graphs_minicar/visual_8_current_globalgraph.html
+2025-12-02 09:45:51 - INFO - --------------------------------
+2025-12-02 09:45:51 - INFO - Processing visual recognition results for step10 from folder: visual_recognition_minicar/step10
+2025-12-02 09:45:51 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:51 - INFO - Label shelf Position [-1.07278906  0.28872325 -1.565     ] is occupied at index 21 by node table_21
+2025-12-02 09:45:51 - INFO - Node table_21 relabeled to shelf_22.
+2025-12-02 09:45:51 - INFO - Replaced occupied node table_21 with new class shelf_22, confidence 0.8985791802406311 and position [-1.0727890624999996, 0.28872324711724534, -1.5649999970197677]
+2025-12-02 09:45:51 - INFO - @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+2025-12-02 09:45:51 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:51 - WARNING - shelf
+2025-12-02 09:45:51 - INFO - label: shelf_22_22
+2025-12-02 09:45:51 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22'}
+2025-12-02 09:45:52 - INFO - Successfully landmark node: shelf_22_22, position: [-0.80339062  0.62303151 -5.513     ], confidence: 0.8839766979217529 
+2025-12-02 09:45:52 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21', 14: 'shelf_22_22'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22', 22: 'shelf_22_22'}
+2025-12-02 09:45:52 - INFO - Added landmark node: shelf (0.8839766979217529)
+2025-12-02 09:45:52 - INFO - Added edge from shelf_22_22 to nearest landmark shelf_11 with relation right_of and distance 2.2847363958806945
+2025-12-02 09:45:52 - INFO - Ignoring low confidence detection: shelf (0.37742993235588074)
+2025-12-02 09:45:52 - INFO - Ignoring low confidence detection: shelf (0.3646954596042633)
+2025-12-02 09:45:52 - INFO - Ignoring low confidence detection: chair (0.36452218890190125)
+2025-12-02 09:45:52 - INFO - Ignoring low confidence detection: table (0.3607853353023529)
+2025-12-02 09:45:52 - INFO - 知识图谱已保存至 /home/gwk/langChain_Test/graphs_minicar/visual_9_current_globalgraph.html
+2025-12-02 09:45:52 - INFO - 当前步骤全局知识图已保存为 graphs_minicar/visual_9_current_globalgraph.html
+2025-12-02 09:45:52 - INFO - --------------------------------
+2025-12-02 09:45:52 - INFO - Processing visual recognition results for step11 from folder: visual_recognition_minicar/step11
+2025-12-02 09:45:52 - WARNING - shelf
+2025-12-02 09:45:52 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21', 14: 'shelf_22_22'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22', 22: 'shelf_22_22'}
+2025-12-02 09:45:52 - INFO - Successfully landmark node: shelf_23, position: [-1.10610781  0.57113734 -4.543     ], confidence: 0.9302360415458679 
+2025-12-02 09:45:52 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21', 14: 'shelf_22_22', 15: 'shelf_23'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22', 22: 'shelf_22_22', 23: 'shelf_23'}
+2025-12-02 09:45:52 - INFO - Added landmark node: shelf (0.9302360415458679)
+2025-12-02 09:45:52 - INFO - Added edge from shelf_23 to nearest landmark shelf_22_22 with relation above and distance 1.0174628684043692
+2025-12-02 09:45:52 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:52 - WARNING - table
+2025-12-02 09:45:52 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21', 14: 'shelf_22_22', 15: 'shelf_23'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22', 22: 'shelf_22_22', 23: 'shelf_23'}
+2025-12-02 09:45:52 - INFO - Successfully landmark node: table_24, position: [ 1.5943375   0.07074786 -2.118     ], confidence: 0.8782809376716614 
+2025-12-02 09:45:52 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21', 14: 'shelf_22_22', 15: 'shelf_23', 16: 'table_24'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22', 22: 'shelf_22_22', 23: 'shelf_23', 24: 'table_24'}
+2025-12-02 09:45:52 - INFO - Added landmark node: table (0.8782809376716614)
+2025-12-02 09:45:52 - INFO - Added edge from table_24 to nearest landmark shelf_1 with relation left_of and distance 0.47430995623127936
+2025-12-02 09:45:52 - WARNING - shelf
+2025-12-02 09:45:52 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21', 14: 'shelf_22_22', 15: 'shelf_23', 16: 'table_24'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22', 22: 'shelf_22_22', 23: 'shelf_23', 24: 'table_24'}
+2025-12-02 09:45:52 - INFO - Successfully landmark node: shelf_25, position: [-0.116025   0.2101555 -4.568    ], confidence: 0.7858945727348328 
+2025-12-02 09:45:52 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21', 14: 'shelf_22_22', 15: 'shelf_23', 16: 'table_24', 17: 'shelf_25'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22', 22: 'shelf_22_22', 23: 'shelf_23', 24: 'table_24', 25: 'shelf_25'}
+2025-12-02 09:45:52 - INFO - Added landmark node: shelf (0.7858945727348328)
+2025-12-02 09:45:52 - INFO - Added edge from shelf_25 to nearest landmark shelf_23 with relation left_of and distance 1.054133229246149
+2025-12-02 09:45:52 - WARNING - table
+2025-12-02 09:45:52 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21', 14: 'shelf_22_22', 15: 'shelf_23', 16: 'table_24', 17: 'shelf_25'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22', 22: 'shelf_22_22', 23: 'shelf_23', 24: 'table_24', 25: 'shelf_25'}
+2025-12-02 09:45:52 - INFO - Successfully landmark node: table_26, position: [ 1.19148437  0.04237911 -3.975     ], confidence: 0.7812901735305786 
+2025-12-02 09:45:52 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21', 14: 'shelf_22_22', 15: 'shelf_23', 16: 'table_24', 17: 'shelf_25', 18: 'table_26'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22', 22: 'shelf_22_22', 23: 'shelf_23', 24: 'table_24', 25: 'shelf_25', 26: 'table_26'}
+2025-12-02 09:45:52 - INFO - Added landmark node: table (0.7812901735305786)
+2025-12-02 09:45:52 - INFO - Added edge from table_26 to nearest landmark shelf with relation behind and distance 0.6389741091386745
+2025-12-02 09:45:52 - INFO - Ignoring low confidence detection: shelf (0.6193113327026367)
+2025-12-02 09:45:52 - INFO - Ignoring low confidence detection: shelf (0.4986253082752228)
+2025-12-02 09:45:52 - INFO - Ignoring low confidence detection: person (0.40315788984298706)
+2025-12-02 09:45:52 - INFO - Ignoring low confidence detection: chair (0.4004793167114258)
+2025-12-02 09:45:52 - INFO - 知识图谱已保存至 /home/gwk/langChain_Test/graphs_minicar/visual_10_current_globalgraph.html
+2025-12-02 09:45:52 - INFO - 当前步骤全局知识图已保存为 graphs_minicar/visual_10_current_globalgraph.html
+2025-12-02 09:45:52 - INFO - --------------------------------
+2025-12-02 09:45:52 - INFO - Processing visual recognition results for step12 from folder: visual_recognition_minicar/step12
+2025-12-02 09:45:52 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:52 - INFO - Ignoring detection in baned list: guard.
+2025-12-02 09:45:52 - WARNING - shelf
+2025-12-02 09:45:52 - INFO - before:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21', 14: 'shelf_22_22', 15: 'shelf_23', 16: 'table_24', 17: 'shelf_25', 18: 'table_26'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22', 22: 'shelf_22_22', 23: 'shelf_23', 24: 'table_24', 25: 'shelf_25', 26: 'table_26'}
+2025-12-02 09:45:52 - INFO - Successfully landmark node: shelf_27, position: [-2.41247812  0.10650188 -2.567     ], confidence: 0.8635672926902771 
+2025-12-02 09:45:52 - INFO - after:{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'shelf_5', 4: 'shelf_6', 5: 'table', 6: 'shelf_8', 7: 'shelf_9', 8: 'shelf_11', 9: 'shelf_12', 10: 'shelf_14', 11: 'shelf_18', 12: 'table_20', 13: 'table_21', 14: 'shelf_22_22', 15: 'shelf_23', 16: 'table_24', 17: 'shelf_25', 18: 'table_26', 19: 'shelf_27'}{0: 'shelf', 1: 'shelf_1', 2: 'shelf_2', 3: 'chair', 4: 'chair_4', 5: 'shelf_5', 6: 'shelf_6', 7: 'table', 8: 'shelf_8', 9: 'shelf_9', 10: 'chair_10', 11: 'shelf_11', 12: 'shelf_12', 13: 'box', 14: 'shelf_14', 15: 'chair_15', 16: 'chair_16', 17: 'box_17', 18: 'shelf_18', 19: 'chair_19', 20: 'table_20', 21: 'shelf_22', 22: 'shelf_22_22', 23: 'shelf_23', 24: 'table_24', 25: 'shelf_25', 26: 'table_26', 27: 'shelf_27'}
+2025-12-02 09:45:52 - INFO - Added landmark node: shelf (0.8635672926902771)

@@ -1,0 +1,12 @@
+[
+    {
+        "subject": "暖气片",
+        "relation": "下方",
+        "object": "门洞"
+    },
+    {
+        "subject": "地毯",
+        "relation": "下方",
+        "object": "楼梯"
+    }
+]

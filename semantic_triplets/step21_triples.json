@@ -1,0 +1,17 @@
+[
+    {
+        "subject": "门洞",
+        "relation": "外",
+        "object": "浴室"
+    },
+    {
+        "subject": "马桶",
+        "relation": "下方",
+        "object": "毛巾架"
+    },
+    {
+        "subject": "艺术作品",
+        "relation": "悬挂于",
+        "object": "墙面"
+    }
+]

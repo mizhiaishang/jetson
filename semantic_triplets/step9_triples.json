@@ -1,0 +1,12 @@
+[
+    {
+        "subject": "梳妆台",
+        "relation": "靠",
+        "object": "墙"
+    },
+    {
+        "subject": "地面",
+        "relation": "铺有",
+        "object": "地毯"
+    }
+]

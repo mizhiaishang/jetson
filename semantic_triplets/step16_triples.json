@@ -1,0 +1,22 @@
+[
+    {
+        "subject": "床头柜",
+        "relation": "紧挨着",
+        "object": "床头板"
+    },
+    {
+        "subject": "相框",
+        "relation": "放置",
+        "object": "梳妆台"
+    },
+    {
+        "subject": "时钟",
+        "relation": "放置",
+        "object": "床头柜"
+    },
+    {
+        "subject": "装饰物",
+        "relation": "放置",
+        "object": "床头柜"
+    }
+]

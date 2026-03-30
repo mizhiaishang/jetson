@@ -1,0 +1,27 @@
+[
+    {
+        "subject": "镜子",
+        "relation": "右侧",
+        "object": "门洞"
+    },
+    {
+        "subject": "镜子",
+        "relation": "下方",
+        "object": "洗手池"
+    },
+    {
+        "subject": "洗手池",
+        "relation": "放置",
+        "object": "容器"
+    },
+    {
+        "subject": "洗手池",
+        "relation": "放置",
+        "object": "液体"
+    },
+    {
+        "subject": "洗手池",
+        "relation": "放置",
+        "object": "塑料袋"
+    }
+]

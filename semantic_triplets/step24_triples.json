@@ -1,0 +1,27 @@
+[
+    {
+        "subject": "洗手台",
+        "relation": "下方",
+        "object": "水槽"
+    },
+    {
+        "subject": "水槽",
+        "relation": "上方",
+        "object": "窗户"
+    },
+    {
+        "subject": "窗户",
+        "relation": "下方",
+        "object": "窗台"
+    },
+    {
+        "subject": "镜子",
+        "relation": "下方",
+        "object": "马桶"
+    },
+    {
+        "subject": "卫生纸架",
+        "relation": "放置",
+        "object": "卫生纸"
+    }
+]

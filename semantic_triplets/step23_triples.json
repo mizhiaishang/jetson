@@ -1,0 +1,22 @@
+[
+    {
+        "subject": "窗帘头",
+        "relation": "顶部",
+        "object": "窗帘"
+    },
+    {
+        "subject": "淋浴喷头装置",
+        "relation": "上方",
+        "object": "浴缸"
+    },
+    {
+        "subject": "镜子",
+        "relation": "旁边",
+        "object": "洗手池"
+    },
+    {
+        "subject": "通风口",
+        "relation": "旁边",
+        "object": "窗户"
+    }
+]

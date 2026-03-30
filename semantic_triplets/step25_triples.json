@@ -1,0 +1,17 @@
+[
+    {
+        "subject": "暖气片",
+        "relation": "下方",
+        "object": "窗户"
+    },
+    {
+        "subject": "梳妆台",
+        "relation": "放置",
+        "object": "黑色物体"
+    },
+    {
+        "subject": "梳妆台",
+        "relation": "前方",
+        "object": "婴儿车"
+    }
+]

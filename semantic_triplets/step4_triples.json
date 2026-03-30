@@ -1,0 +1,27 @@
+[
+    {
+        "subject": "床头柜",
+        "relation": "放置",
+        "object": "台灯"
+    },
+    {
+        "subject": "窗户",
+        "relation": "旁边",
+        "object": "单人椅"
+    },
+    {
+        "subject": "单人椅",
+        "relation": "放置",
+        "object": "靠垫"
+    },
+    {
+        "subject": "双人床",
+        "relation": "放置",
+        "object": "床单"
+    },
+    {
+        "subject": "双人床",
+        "relation": "放置",
+        "object": "枕头"
+    }
+]
