@@ -1,0 +1,38 @@
+{
+    "scene": "/home/sjs/test_file/hm3d_v0.2/val/00800-TEEsavR23oF/TEEsavR23oF.basis.glb",
+    "scene_dataset": "/home/sjs/test_file/hm3d_v0.2/val/hm3d_val_basis.scene_dataset_config.json",
+    "rgb_sensor": true,
+    "depth_sensor": true,
+    "semantic_sensor": false,
+    "height": 720,
+    "width": 1280,
+    "sensor_height": 0.5,
+    "hov": 90,
+    "vov": 60,
+    "move_length": 0.1,
+    "rotate_angle": 15,
+    "default_agent": 0,
+    "agent_state": {
+        "position": [
+           -4,3.2,-7.5
+        ],
+        "rotation": [
+            0,
+            0,
+            0
+        ]
+    },
+    "agent": {
+        "sensor_height": 1.5,
+        "resolution": [
+            256,
+            256
+        ],
+        "enable_physics": false
+    },
+    "experiment": {
+        "seed": 42,
+        "save_dir": "./results",
+        "timestamp": "2025-10-21T09:41:36.925Z"
+    }
+}
